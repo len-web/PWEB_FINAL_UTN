@@ -1,6 +1,6 @@
 import React from 'react'
 import './WorkspaceList.css'
-import WorkspaceItem from '../WorkspaceItem/WorkspaceItem'
+import WorkspaceItem from '../WorkspaceItem/workspaceItem'
 
 const WorkspaceList=({workspaces}) => {
     let workspacesListJSX = workspaces.map(

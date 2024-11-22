@@ -4,18 +4,18 @@ import { Link } from "react-router-dom";
 import workspaces from "../data/workspacesData";
 
 
-const HomeScreen = ()=> {
-
-
-
+const HomeScreen = () => {
+    
     return (
         <div>
-          {}
-          <Link to={'/estados'}>Ir a estados</Link><br/>
-          <Link to={'/formularios'}>Formularios</Link><br/>
+			{/* Hace lo mismo que el <a></a> */}
+			<Link to={'/estados'}>Ir a estados</Link>
+			<br/>
+			<Link to={'/formularios'}>Ir a formularios</Link>
             <WorkspaceList workspaces={workspaces}/>
         </div>
     )
 }
 
-export default HomeScreen
+
+export default  HomeScreen
